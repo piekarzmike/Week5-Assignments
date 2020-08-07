@@ -35,8 +35,7 @@ public class DivisorCalc {
 		System.out.println(gcd(num1, num2));
 	}
 
-	// gcd method is used to identify the greatest common denominator through
-	// recursion
+	// gcd method is used to identify the greatest common denominator through recursion
 	public static int gcd(int num1, int num2) {
 
 		if (num2 <= num1 && (num1 % num2 == 0)) {
